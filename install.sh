@@ -4,6 +4,16 @@ sudo pacman -S --needed matugen ghostty neovim swaync waybar rofi dolphin hyprpo
 hyprpm update
 hyprpm add https://github.com/hyprwm/hyprland-plugins
 hyprpm enable hyprscrolling
+
+rm -r ~/Pictures/Wallpapers
+rm -r ~/.config/rofi 
+rm -r ~/.config/ghostty 
+rm -r ~/.config/swaync 
+rm -r ~/.config/nvim 
+rm -r ~/.config/waybar 
+rm -r ~/.config/matugen 
+rm -r ~/.config/hypr 
+
 cp -r Wallpapers ~/Pictures/Wallpapers
 cp -r rofi ~/.config
 cp -r ghostty ~/.config
