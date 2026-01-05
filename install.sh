@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -S --needed matugen ghostty neovim swaync waybar rofi dolphin hyprpolkitagent swww ttf-space-mono-nerd wl-clipboard pavucontrol networkmanager-dmenu
+sudo pacman -S --needed matugen ghostty neovim swaync waybar rofi dolphin hyprpolkitagent swww ttf-space-mono-nerd wl-clipboard pavucontrol networkmanager-dmenu pipewire wireplumber
 hyprpm update
 hyprpm add https://github.com/hyprwm/hyprland-plugins
 hyprpm enable hyprscrolling
