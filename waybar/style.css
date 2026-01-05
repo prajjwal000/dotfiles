@@ -1,0 +1,62 @@
+@import "colors.css";
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "SF PRO Display", "SpaceMono Nerd Font", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    min-height: 0;
+}
+
+window#waybar {
+    background: transparent;
+    color: @on_surface;
+    padding: 4px 10px;
+}
+
+tooltip {
+  background: @surface_container_high;
+  border: 1px solid @outline_variant;
+}
+tooltip label {
+  color: @on_surface;
+}
+
+#workspaces {
+    margin: 3px 10px;
+    padding: 4px 0;
+}
+
+#workspaces button {
+    padding: 3px 11px;
+    margin: 0 4px;
+    min-height: 0;
+    background: @primary_fixed;
+    color: @on_primary_fixed;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    font-weight: 600;
+    transition: background-color 120ms ease, color 120ms ease;
+}
+
+#workspaces button:hover {
+    background: @primary_fixed_dim;
+}
+
+#workspaces button.active {
+    background: @primary_container;
+    color: @on_primary_container;
+    padding: 3px 18px;
+    border-radius: 12px;
+}
+
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#custom-notification {
+    padding: 6px 14px;
+    margin: 4px 6px;
+    border-radius: 24px;
+    background-color: @primary_fixed;
+    color: @on_primary_fixed;
+}

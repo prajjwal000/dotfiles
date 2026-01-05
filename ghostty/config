@@ -1,0 +1,18 @@
+font-size = 16
+font-family = SpaceMono Nerd Font
+font-feature = -calt
+
+window-show-tab-bar = always
+window-new-tab-position = end
+gtk-tabs-location = bottom
+gtk-toolbar-style = flat
+gtk-wide-tabs = false
+
+gtk-custom-css = ~/.config/ghostty/tabbar.css
+config-file = ./solarized_osaka_dark
+
+keybind = ctrl+space>n=new_tab
+keybind = ctrl+space>x=close_tab
+keybind = ctrl+backquote=toggle_quick_terminal
+#background-opacity = 0.8
+#background-blur = true
