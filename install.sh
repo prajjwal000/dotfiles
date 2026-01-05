@@ -5,7 +5,8 @@ hyprpm update
 hyprpm add https://github.com/hyprwm/hyprland-plugins
 hyprpm enable hyprscrolling
 
-cp -r Wallpapers ~/Pictures/Wallpapers
+cp -r Wallpapers ~/Pictures
+cp -r scripts ~/.local
 cp -r rofi ~/.config
 cp -r ghostty ~/.config
 cp -r swaync ~/.config
